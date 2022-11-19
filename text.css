@@ -1,0 +1,1123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bentham&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    max-width: 100%;
+    min-width: 600px;
+    background-color: #0B1D26;
+    font-family: 'Bentham', serif;
+}
+
+img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    top: -500px;
+    right: 0px;
+}
+
+
+.bg-gradient1 {
+    background: linear-gradient(330.24deg, rgba(11, 29, 38, 0) 31.06%, #0B1D26 108.93%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+
+
+.header {
+    position: absolute;
+    height: 26px;
+    width: 72px;
+    font-family: 'Bentham', serif;
+    margin-left: 53.6px;
+    margin-top: 38.86px;
+    right: 84.5%;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    text-align: center;
+    padding-left: 0px;
+    font-size: 2vw;
+    color: white;
+    letter-spacing: 0.01em;
+}
+
+#nav-bar {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 8%;
+    margin-left: 549px;
+    right: 44%;
+    height: auto;
+    color: white;
+}
+
+#nav-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 2px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1vw;
+    font-weight: bold;
+    max-width: 100%;
+}
+
+#nav-bar ul li {
+    margin: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+#account {
+    position: absolute;
+    display: flex;
+    width: 66px;
+    height: 16px;
+    top: 65px;
+    right: 5%;
+    padding: 1.34px;
+    color: white;
+}
+
+#full-icon {
+    padding: 1.34px;
+}
+
+#user {
+    z-index: 2;
+}
+
+
+#account-header {
+    position: absolute;
+    top: 1.34px;
+    left: 23.45px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    font-size: 1.5vw;
+    bottom: .67px;
+
+}
+
+#social {
+    position: fixed;
+}
+
+#social p {
+    position: absolute;
+    top: 270px;
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+    width: 60px;
+    height: 15px;
+    transform: rotate(90deg);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+#social a:nth-child(2) {
+    position: absolute;
+    width: 13.4px;
+    height: 13.4px;
+    left: 23px;
+    top: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#social a:nth-child(3) {
+    position: absolute;
+    width: 13.4px;
+    height: 13.4px;
+    left: 23px;
+    top: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-title {
+    left: 50%;
+}
+
+#main-title .lines {
+    position: absolute;
+    width: 48px;
+    height: 1.34px;
+    top: 211px;
+    left: 335px;
+    color: #FBD784;
+}
+
+#main-title p {
+    position: absolute;
+    top: 192px;
+    left: 405px;
+    width: 154px;
+    height: 15px;
+    color: #FBD784;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+#main-title h1 {
+    position: absolute;
+    width: 637px;
+    top: 201px;
+    left: 335px;
+    height: 134px;
+    color: white;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 67px;
+    text-transform: capitalize;
+}
+
+#main-title h6 {
+    position: absolute;
+    width: 134px;
+    height: 13.4px;
+    color: white;
+    top: 369px;
+    left: 335px;
+    font-size: 1vw;
+    font-weight: 200;
+}
+
+#down {
+    position: absolute;
+    width: 134px;
+    height: 13px;
+    color: white;
+    top: 405px;
+    left: 415px;
+
+}
+
+/*       Main Content   #1          */
+
+.numbers {
+    width: 161px;
+    height: 161px;
+    font-weight: 700;
+    font-size: 161px;
+    line-height: 161px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+    opacity: 0.1;
+}
+
+#number01 {
+    position: absolute;
+    left: 153px;
+    right: 972px;
+    top: 871px;
+    bottom: 61.39%;
+}
+
+
+.lines {
+    position: absolute;
+    width: 48px;
+    height: 1.34px;
+    left: 264px;
+    top: 1069px;
+    background: #FBD784;
+}
+
+.card p:nth-child(3) {
+    position: absolute;
+    width: 122px;
+    height: 15px;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-family: 'Nanum Gothic', sans-serif;
+    top: 1045px;
+    left: 325px;
+    color: #FBD784;
+}
+
+.card h2 {
+    position: absolute;
+    left: 261px;
+    top: 1072px;
+    width: 372px;
+    height: 103px;
+    font-weight: 100;
+    font-size: 43px;
+    line-height: 52px;
+    font-family: 'Bentham', serif;
+    color: white;
+}
+
+#main-1 {
+    position: absolute;
+    width: 423px;
+    height: 107px;
+    left: 261px;
+    top: 1217px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 21px;
+    color: white;
+}
+
+#read-more1 {
+    position: absolute;
+    left: 261px;
+    top: 1340px;
+    width: 58.29px;
+    height: 15px;
+    font-size: 12px;
+    line-height: 15px;
+    background-color: gray;
+    border-radius: 3.35px;
+    text-align: center;
+}
+
+#arrow1 {
+    position: absolute;
+    display: flex;
+    width: 11px;
+    height: 16px;
+    top: 1351px;
+    left: 335px;
+    background: none;
+    border-radius: 3.35px;
+    align-items: center;
+}
+
+
+#image1 {
+    position: absolute;
+    left: 60%;
+    top: 950px;
+    bottom: 0%;
+    max-width: 100%;
+    width: 373px;
+    height: auto;
+
+}
+
+/*    Main Content #2      */
+
+
+#number02 {
+    position: absolute;
+    right: 526px;
+    top: 1541px;
+}
+
+
+.lines2 {
+    position: absolute;
+    width: 48px;
+    height: 1.34px;
+    right: 529px;
+    top: 1725px;
+    background: #FBD784;
+}
+
+.card2 p:first-child {
+    position: absolute;
+    width: 174px;
+    height: 15px;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-family: 'Nanum Gothic', sans-serif;
+    top: 1726px;
+    right: 529px;
+    color: #FBD784;
+}
+
+.card2 h2 {
+    position: absolute;
+    right: 205px;
+    top: 1709px;
+    width: 371.85px;
+    height: 103px;
+    font-weight: 100;
+    font-size: 43px;
+    line-height: 52px;
+    font-family: 'Bentham', serif;
+    color: white;
+}
+
+#main-2 {
+    position: absolute;
+    width: 423px;
+    height: 107px;
+    right: 153px;
+    top: 1859px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 21px;
+    color: white;
+}
+
+#read-more2 {
+    position: absolute;
+    right: 520px;
+    top: 1980px;
+    width: 58px;
+    height: 15px;
+    font-size: 12px;
+    line-height: 15px;
+    background-color: gray;
+    border-radius: 3.4px;
+    text-align: center;
+}
+
+#arrow2 {
+    position: absolute;
+    display: flex;
+    width: 11px;
+    height: 16px;
+    top: 1992px;
+    right: 492px;
+    background: none;
+    border-radius: 3.4px;
+    align-items: center;
+}
+
+
+#image2 {
+    position: absolute;
+    left: 10%;
+    top: 1581px;
+    width: 379px;
+    height: 482px;
+
+}
+
+
+/*      Main Content 3*/
+
+#number03 {
+    position: absolute;
+    left: 153px;
+    top: 2178px;
+}
+
+
+.lines3 {
+    position: absolute;
+    width: 48px;
+    height: 1.34px;
+    left: 254px;
+    top: 2365px;
+    background: #FBD784;
+}
+
+.card3 p:nth-child(3) {
+    position: absolute;
+    width: 251px;
+    height: 15px;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-family: 'Nanum Gothic', sans-serif;
+    top: 2346px;
+    left: 325px;
+    color: #FBD784;
+}
+
+.card3 h2 {
+    position: absolute;
+    left: 254px;
+    top: 2352px;
+    width: 372px;
+    height: 103px;
+    font-weight: 100;
+    font-size: 43px;
+    line-height: 52px;
+    font-family: 'Bentham', serif;
+    color: white;
+}
+
+#main-3 {
+    position: absolute;
+    width: 423px;
+    height: auto;
+    left: 254px;
+    top: 2496px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 21px;
+    color: white;
+}
+
+#read-more3 {
+    position: absolute;
+    left: 254px;
+    top: 2620px;
+    width: 58px;
+    height: 15px;
+    font-size: 12px;
+    line-height: 15px;
+    background-color: gray;
+    border-radius: 3.4px;
+    text-align: center;
+}
+
+#arrow3 {
+    position: absolute;
+    display: flex;
+    width: 11px;
+    height: 16px;
+    top: 2631px;
+    left: 335px;
+    background: none;
+    border-radius: 3.4px;
+    align-items: center;
+}
+
+
+#image3 {
+    position: absolute;
+    left: 60%;
+    top: 2198px;
+    width: 379px;
+    height: 482px;
+
+}
+
+/*           footer          */
+
+.footer {
+    position: sticky;
+    width: 980px;
+    height: 188px;
+    left: 153px;
+    margin-top: 2814px;
+}
+
+
+#title {
+    position: absolute;
+    height: 25px;
+    width: 72px;
+    font-family: 'Bentham', serif;
+    top: -23px;
+    left: 0px;
+    font-size: 21px;
+    color: white;
+    letter-spacing: 0.01em;
+}
+
+#ft {
+    position: absolute;
+    width: 203px;
+    height: 43px;
+    top: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+#Copyright {
+    position: absolute;
+    width: 232px;
+    height: 21px;
+    left: 4.06px;
+    top: 141px;
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 21px;
+    opacity: 0.5;
+
+}
+
+
+.h5first {
+    position: absolute;
+    width: 129px;
+    height: 21px;
+    color: #FBD784;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 21px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#links {
+    position: absolute;
+    width: 129px;
+    height: 21px;
+    left: 600px;
+    top: -23px;
+    text-decoration: none;
+}
+
+#first {
+    position: absolute;
+    width: 70px;
+    height: 21px;
+    left: 0px;
+    top: 56px;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 21px;
+    font-family: 'Nanum Gothic', sans-serif;
+
+
+}
+
+a,
+a:link,
+a:visited {
+    color: #FFFfFf;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #fbd784;
+    border-radius: 3.4px;
+    color: black;
+
+}
+
+#second {
+    position: absolute;
+    width: 123px;
+    height: 21px;
+    left: 0px;
+    top: 84px;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 21px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#third {
+    position: absolute;
+    width: 66px;
+    height: 21px;
+    left: 0px;
+    top: 114px;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 21px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#fourth {
+    position: absolute;
+    width: 63px;
+    height: 21px;
+    left: 0px;
+    top: 143px;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 21px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#fifth {
+    position: absolute;
+    width: 72px;
+    height: 21px;
+    left: 0px;
+    top: 174px;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 21px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.h5second {
+    position: absolute;
+    left: 268px;
+    top: 0px;
+    width: 129px;
+    height: 21px;
+    color: #FBD784;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 21px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#first1 {
+    position: absolute;
+    width: 68px;
+    height: 21px;
+    left: 270px;
+    top: 56px;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 21px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#second2 {
+    position: absolute;
+    width: 123px;
+    height: 21px;
+    left: 270px;
+    top: 84px;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 21px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#third3 {
+    position: absolute;
+    width: 66px;
+    height: 21px;
+    left: 270px;
+    top: 114px;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 21px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+
+.sidebar {
+    float: right;
+    width: 25%;
+    height: 100vh;
+    margin-right: -268px;
+    font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+.sidebar-content {
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    background: transparent;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+}
+
+.sidebar-list {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.sidebar-list-menu {
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-list-menu::after {
+    position: absolute;
+    content: ' ';
+    top: 0;
+    bottom: 0;
+    left: -13px;
+    width: 1.34px;
+    height: 100%;
+    background: #333;
+    z-index: 9;
+}
+
+.sidebar-list-menu li a {
+    position: relative;
+    display: inline-block;
+    line-height: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar-list-menu li a.active {
+    font-weight: 900;
+}
+
+
+/*  Responsive*/
+
+@media (max-width: 1164px) {
+
+    .sidebar {
+        display: none
+    }
+
+
+    #image1 {
+        z-index: -10;
+        right: 5%;
+        opacity: .2;
+    }
+
+    #image2 {
+        z-index: -1;
+        right: 5%;
+        opacity: .2;
+
+
+    }
+
+    #image3 {
+        z-index: -1;
+        right: 5%;
+        opacity: .2;
+    }
+}
+
+@media (max-width: 1020px) {
+    footer {
+        display: none;
+    }
+
+}
+
+@media (max-width: 670px) {
+    .im {
+        display: none;
+    }
+}
+
+@media (max-width: 930px) {
+    #header {
+        display: none;
+    }
+
+
+    .header {
+        text-align: center;
+        margin: 0 auto;
+        left: 40%;
+        right: 50%;
+        top: 6%;
+        font-size: 5vw;
+    }
+
+    #nav-bar-hide {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        top: 8%;
+        margin: 0 auto;
+        right: 44%;
+        height: auto;
+        color: white;
+
+    }
+
+    #nav-bar-hide ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        padding: 2px;
+        font-family: 'Nanum Gothic', sans-serif;
+        font-size: 3vw;
+        font-weight: bold;
+        max-width: 100%;
+    }
+
+    #nav-bar-hide ul li {
+        margin: 10%;
+        width: 100%;
+        text-align: center;
+
+
+    }
+
+    #account-hide #account-header {
+
+        text-align: end;
+        right: 0%;
+        top: 0%;
+        font-size: 3vw;
+    }
+
+
+    #main-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+
+    }
+
+    .lines {
+        display: none;
+    }
+
+    #main-title p {
+        display: none;
+    }
+
+    #main-title h1 {
+        width: 100%;
+        height: auto;
+        margin-top: 40%;
+        left: 2%;
+        font-size: 7vw;
+        text-align: center;
+    }
+
+    #main-title h6 {
+        margin-top: 40%;
+        font-size: 4vw;
+        width: 100%;
+        height: auto;
+        margin-left: -45%;
+
+    }
+
+    #main-title span {
+        display: none;
+    }
+
+
+    .card3 {
+        margin: 0 auto;
+    }
+
+    #number03 {
+        position: absolute;
+        left: 15%;
+        top: 2178px;
+    }
+
+
+    .lines3 {
+        position: absolute;
+        width: 48px;
+        height: 1.34px;
+        left: 30%;
+        top: 2365px;
+        background: #FBD784;
+    }
+
+    .card3 p:nth-child(3) {
+        position: absolute;
+        width: 100%;
+        height: 15px;
+        font-weight: 800;
+        font-size: 2vw;
+        line-height: 15px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-family: 'Nanum Gothic', sans-serif;
+        top: 2346px;
+        left: 39%;
+        color: #FBD784;
+    }
+
+    .card3 h2 {
+        position: absolute;
+        left: 30%;
+        top: 2352px;
+        width: 500px;
+        height: auto;
+        font-weight: 100;
+        font-size: 6vw;
+        line-height: 52px;
+        font-family: 'Bentham', serif;
+        color: white;
+    }
+
+    #main-3 {
+        position: absolute;
+        max-width: 423px;
+        height: auto;
+        left: 30%;
+        top: 2496px;
+        font-family: 'Nanum Gothic', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.5vw;
+        line-height: 21px;
+        color: white;
+    }
+
+    #read-more3 {
+        position: absolute;
+        left: 30%;
+        top: 2620px;
+        width: 58px;
+        height: 15px;
+        font-size: 12px;
+        line-height: 15px;
+        background-color: gray;
+        border-radius: 3.4px;
+        text-align: center;
+    }
+
+    #arrow3 {
+        position: absolute;
+        display: flex;
+        width: 11px;
+        height: 16px;
+        top: 2631px;
+        left: 40%;
+        background: none;
+        border-radius: 3.4px;
+        align-items: center;
+    }
+
+
+    #image3 {
+        position: absolute;
+        left: 25%;
+        top: 2198px;
+        width: 400px;
+        height: 500px;
+
+    }
+
+
+
+    #number01 {
+        position: absolute;
+        left: 15%;
+    }
+
+
+    .lines {
+        position: absolute;
+        width: 48px;
+        height: 1.34px;
+        left: 30%;
+        background: #FBD784;
+    }
+
+    .card p:nth-child(3) {
+        position: absolute;
+        width: 100%;
+        height: 15px;
+        font-weight: 800;
+        font-size: 2vw;
+        line-height: 15px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-family: 'Nanum Gothic', sans-serif;
+        left: 39%;
+        color: #FBD784;
+    }
+
+    .card h2 {
+        position: absolute;
+        left: 30%;
+        width: 500px;
+        height: auto;
+        font-weight: 100;
+        font-size: 6vw;
+        line-height: 52px;
+        font-family: 'Bentham', serif;
+        color: white;
+    }
+
+    #main-1 {
+        position: absolute;
+        max-width: 423px;
+        height: auto;
+        left: 30%;
+        font-family: 'Nanum Gothic', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.5vw;
+        line-height: 21px;
+        color: white;
+    }
+
+    #read-more1 {
+        position: absolute;
+        left: 30%;
+        width: 58px;
+        height: 15px;
+        font-size: 12px;
+        line-height: 15px;
+        background-color: gray;
+        border-radius: 3.4px;
+        text-align: center;
+    }
+
+    #arrow1 {
+        position: absolute;
+        display: flex;
+        width: 11px;
+        height: 16px;
+        left: 40%;
+        background: none;
+        border-radius: 3.4px;
+        align-items: center;
+    }
+
+
+    #image1 {
+        position: absolute;
+        left: 25%;
+        width: 400px;
+        height: 500px;
+
+    }
+}
+
+@media (min-width: 930px) {
+    #account-hide {
+        display: none;
+    }
+}
