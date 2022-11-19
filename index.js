@@ -5,7 +5,7 @@ const path = require('path');
 app.use(express.static(path.join(__dirname, './')));
 const port = 3000
 app.get('/text', function (req, res) {
-    res.sendFile(__dirname + "/" + "text.html");
+    res.sendFile(__dirname + "/" + "index.html");
 })
 
 app.listen(port, () => {
