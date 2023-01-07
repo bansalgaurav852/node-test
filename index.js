@@ -19,7 +19,7 @@ var url = "mongodb://localhost:27017/"; */
 }); */
 app.use(express.static(path.join(__dirname, './')));
 const port = 3000
-app.get('/', function (req, res) {
+app.get('/text', function (req, res) {
     res.sendFile(__dirname + "/" + "text.html");
 })
 
